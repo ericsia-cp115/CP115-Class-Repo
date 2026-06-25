@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-1"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 03:18:34 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzowOTo0NCBQTTsyNzU4"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzoxODozNCBQTTsyOzI4NjY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="remainingRinggit" type="Integer" array="False" size=""/>
+            <input variable="remainingRinggit"/>
+            <assign variable="totalBahtreceived" expression="remainingRinggit-(remainingRinggit*2/100)"/>
+            <declare name="totalBathreceived" type="Integer" array="False" size=""/>
+            <output expression="totalBahtreceived" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

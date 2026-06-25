@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="exercise-2"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-06-25 03:36:40 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzoxODo0MyBQTTsyNzU3"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yNTswMzozNjo0MCBQTTszOzI4NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="timberLength" type="Real" array="False" size=""/>
+            <input variable="timberLength"/>
+            <declare name="totalLength" type="Real" array="False" size=""/>
+            <assign variable="totalLength" expression="(timberLength/100)+(timberLength/100*10/100)"/>
+            <output expression="totalLength" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
